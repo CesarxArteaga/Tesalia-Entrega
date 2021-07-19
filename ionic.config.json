@@ -1,0 +1,7 @@
+{
+  "name": "tesalia-delivery",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
