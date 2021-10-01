@@ -1,6 +1,16 @@
 /* Ionic Variables and Theming. For more info, please see:
 http://ionicframework.com/docs/theming/ */
 
+ion-content{
+  --background: #2F3F4A;
+  --color: #FFF;
+}
+
+/* ion-item{
+  --background: unset;
+  --color:#FFF;
+} */
+
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -8,6 +18,7 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #3171e0;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
 
@@ -52,11 +63,11 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-danger-tint: #ed576b;
 
   /** dark **/
-  --ion-color-dark: #222428;
+  --ion-color-dark: none;
   --ion-color-dark-rgb: 34, 36, 40;
   --ion-color-dark-contrast: #ffffff;
   --ion-color-dark-contrast-rgb: 255, 255, 255;
-  --ion-color-dark-shade: #1e2023;
+  --ion-color-dark-shade: transparent;
   --ion-color-dark-tint: #383a3e;
 
   /** medium **/
@@ -74,6 +85,7 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+ 
 }
 
 @media (prefers-color-scheme: dark) {
